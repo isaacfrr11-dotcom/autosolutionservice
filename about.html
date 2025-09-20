@@ -1,184 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sobre Nós - AutoSolutions</title>
-  <meta name="description" content="Conheça mais sobre a AutoSolutions e entre em contato para criar seu projeto.">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
-    header nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 5%;
-      background: #fff;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    header nav .logo {
-      font-weight: 700;
-      font-size: 1.8rem;
-      color: #0078d4;
-    }
-    header nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-    }
-    header nav ul li a {
-      text-decoration: none;
-      color: #111827;
-      font-weight: 500;
-      padding: 0.3rem 0.6rem;
-      border-radius: 6px;
-    }
-    header nav ul li a:hover,
-    header nav ul li a.active {
-      background: #0078d4;
-      color: #fff;
-    }
-    section {
-      padding: 4rem 5%;
-    }
-    .about-container {
-      display: flex;
-      align-items: flex-start;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-    .about-text {
-      flex: 2;
-    }
-    .about-text h2 {
-      color: #0078d4;
-      margin-bottom: 1rem;
-    }
-    .about-text p {
-      margin-bottom: 1rem;
-      line-height: 1.6;
-    }
-    .about-img {
-      flex: 1;
-      max-width: 250px;
-    }
-    .about-img img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    .contact-form {
-      margin-top: 3rem;
-      background: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      max-width: 600px;
-    }
-    .contact-form h3 {
-      color: #0078d4;
-      margin-bottom: 1.5rem;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 0.8rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      font-size: 1rem;
-    }
-    .contact-form button {
-      background: #0078d4;
-      color: #fff;
-      border: none;
-      padding: 0.8rem 1.5rem;
-      font-size: 1rem;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    .contact-form button:hover {
-      background: #005fa3;
-    }
-    footer {
-      padding: 2rem 5%;
-      background: #111827;
-      color: white;
-      text-align: center;
-    }
-    footer a {
-      color: white;
-      margin: 0 0.5rem;
-      text-decoration: none;
-    }
-    footer a:hover {
-      color: #00bcf2;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About - AutoSolutions</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* apenas ajustes locais ao estilo global, nada que quebre seu CSS */
+.about-container{display:flex;gap:2rem;align-items:flex-start;flex-wrap:wrap;padding:4rem 5%;}
+.about-text{flex:2;min-width:260px;}
+.about-img{flex:1;max-width:260px;}
+.about-img img{width:100%;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.contact-form{margin-top:2rem;background:#fff;padding:1.6rem;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06);max-width:700px;}
+.contact-form input,.contact-form textarea{width:100%;padding:0.8rem;margin-bottom:0.8rem;border:1px solid #ddd;border-radius:8px;}
+.contact-form button{background:#0078d4;color:#fff;border:none;padding:0.8rem 1.2rem;border-radius:8px;cursor:pointer;}
+</style>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">AutoSolutions</div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section>
-    <div class="about-container">
-      <div class="about-text">
-        <h2>Sobre Nós</h2>
-        <p>Na AutoSolutions, acreditamos que a tecnologia deve trabalhar a favor do seu negócio. Criamos soluções digitais modernas, automatizamos processos e desenvolvemos sites e sistemas que tornam sua empresa mais eficiente.</p>
-        <p>Combinamos criatividade, tecnologia e automação para oferecer serviços sob medida para sua necessidade.</p>
+<header>
+<nav style="display:flex;justify-content:space-between;align-items:center;padding:1rem 5%;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+<div class="logo">AutoSolutions</div>
+<ul style="list-style:none;display:flex;gap:1rem;">
+<li><a href="index.html">Home</a></li>
+<li><a href="service.html">Services</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="about.html" class="active">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section style="padding:2rem 5%;">
+  <div class="about-container">
+    <div class="about-text">
+      <h2 style="color:#0078d4;margin-bottom:0.8rem;">Sobre Nós</h2>
+      <p>Na AutoSolutions, nós criamos soluções digitais que ajudam empresas a automatizar tarefas, vender mais e ganhar eficiência.</p>
+      <p>Oferecemos: desenvolvimento web, automação para WhatsApp e email, design de identidade visual e arquiteturas digitais personalizadas.</p>
+
+      <!-- formulário ancorado -->
+      <div id="formulario" class="contact-form" aria-label="Formulário de contato">
+        <h3>Escreva seu projeto</h3>
+        <form id="projectForm" onsubmit="sendToWhatsApp(event)">
+          <input type="text" id="nome" placeholder="Seu nome" required>
+          <input type="email" id="email" placeholder="Seu email" required>
+          <textarea id="mensagem" rows="5" placeholder="Descreva seu projeto" required></textarea>
+          <button type="submit">Enviar para WhatsApp</button>
+        </form>
       </div>
-      <div class="about-img">
-        <img src="imagem/me.png" alt="Isaac Feitosa">
-      </div>
+
     </div>
 
-    <div class="contact-form">
-      <h3>Escreva seu projeto</h3>
-      <form onsubmit="sendToWhatsApp(event)">
-        <input type="text" id="name" placeholder="Seu nome" required>
-        <input type="email" id="email" placeholder="Seu email" required>
-        <textarea id="project" rows="4" placeholder="Descreva seu projeto" required></textarea>
-        <button type="submit">Enviar para WhatsApp</button>
-      </form>
+    <div class="about-img">
+      <!-- sua foto local -->
+      <img src="imagem/me.png" alt="Isaac Feitosa">
     </div>
-  </section>
+  </div>
+</section>
+</main>
 
-  <footer>
-    <p>© 2025 AutoSolutions. Todos os direitos reservados.</p>
-    <div>
-      <a href="#">LinkedIn</a> | 
-      <a href="#">Instagram</a> | 
-      <a href="https://api.whatsapp.com/send?phone=5579988177341">WhatsApp</a>
-    </div>
-  </footer>
+<footer style="padding:2rem 5%;background:#111827;color:#fff;text-align:center;">
+<p>© 2025 AutoSolutions</p>
+</footer>
 
-  <script>
-    function sendToWhatsApp(e) {
-      e.preventDefault();
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const project = document.getElementById("project").value;
-      const phoneNumber = "5579988177341"; // seu número
-      const message = `Olá, meu nome é ${name}, meu email é ${email}. Projeto: ${project}`;
-      const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-      window.open(url, "_blank");
-    }
-  </script>
+<script>
+/* ao abrir about.html#formulario, garante scroll+foco no campo nome */
+(function(){
+  if(location.hash === '#formulario'){
+    window.addEventListener('load', function(){
+      var el = document.getElementById('formulario');
+      if(el){ el.scrollIntoView({behavior:'smooth'}); var i = el.querySelector('#nome'); if(i){ setTimeout(()=>i.focus(),350); } }
+    });
+  }
+})();
+
+function sendToWhatsApp(e){
+  e.preventDefault();
+  var nome = document.getElementById('nome').value.trim();
+  var email = document.getElementById('email').value.trim();
+  var msg = document.getElementById('mensagem').value.trim();
+  var phone = '5579988177341'; // seu número
+  var texto = `Olá, meu nome é ${nome}. Email: ${email}. Projeto: ${msg}`;
+  var url = 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + encodeURIComponent(texto);
+  window.open(url,'_blank');
+}
+</script>
+
 </body>
 </html>
